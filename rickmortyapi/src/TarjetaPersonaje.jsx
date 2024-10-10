@@ -2,7 +2,6 @@ import React from 'react';
 
 const TarjetaPersonaje = ({ personaje }) => {
     const estadoClase = personaje.status.toLowerCase();
-
     return (
         <div className="tarjeta-personaje">
             <img src={personaje.image} alt={personaje.name} />
