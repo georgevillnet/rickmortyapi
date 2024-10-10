@@ -14,7 +14,7 @@ function Logo1(props) {
     };
     return (
         <div style={contenedorLogo} className='cajalogo1'>
-            <img style={estiloLogo} src="/img/logo.PNG" alt="Logotipo" />
+            <img className="logo" style={estiloLogo} src="/img/logo.PNG" alt="Logotipo" />
         </div>
     );
 }

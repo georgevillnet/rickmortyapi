@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+.logo:hover{
+  filter: drop-shadow(0 0 10px #00ff99);
+  -webkit-filter: drop-shadow(0 0 10px #fbff00);
+}
+
 .aplicacion header {
   display: flex;
   flex-direction: column;
