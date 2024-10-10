@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2F5F59;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+}
+
+.aplicacion header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 40px;
+}
+
+.aplicacion header img {
+  width: 300px;
+}
+
+.aplicacion header input {
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.lista-personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+  color: white;
+}
+
+.tarjeta-personaje {
+  width: 274px;
+  margin: 1%;
+  box-shadow: 10px 14px 30px rgba(0, 0, 8, 0.4);
+  border-radius: 23px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #4A8C84;
+  border: 3px solid white;
+  padding-bottom: 10px;
+}
+
+.tarjeta-personaje:hover {
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+}
+
+.tarjeta-personaje img {
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 80%;
+  border: 9px solid white;
+}
+
+.tarjeta-personaje h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+
+.tarjeta-personaje p {
+  font-size: 14px;
+  margin: 5px 0;
+  margin-bottom: 8px;
+}
+
+.boton-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.estado {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.estado.alive {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.estado.dead {
+  background-color: #F44336;
+  color: white;
+}
+
+.estado.unknown {
+  background-color: #FFC107;
+  color: black;
+}
+
+.boton-mostrar-mas {
+  background-color: #6ab4a1;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.boton-mostrar-mas:hover {
+  background-color: #2d5755;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+}
+
+.cabecera {
+  width: 100%;
+  height: 230px;
+  margin-top: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.linea-delgada {
+  width: 100%;
+  height: 6px;
+  background-color: #98D6CE;
+}
+
+.buscadorcontenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #98D6CE;
+  border-radius: 30px;
+  padding: 5px 15px;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.buscador {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+}
+
+.buscador::placeholder {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.botonbuscador {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonbuscador svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cajalista {
+  width: 100%;
+  height: 37px;
+  background: #274642;
+  box-shadow: 0px 22px 66px -6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letracaja {
+  color: #98D6CE;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .aplicacion header img {
+    width: 200px;
+  }
+
+  .aplicacion header input {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .lista-personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px auto;
+  }
+
+  .tarjeta-personaje {
+    width: 350px;
+    height: 430px;
+    margin: 50px 0;
+    border: 3px solid white;
+    border-radius: 30px;
+  }
+
+  .tarjeta-personaje img {
+    width: 220px;
+    height: 199px;
+    border: 7px solid white;
+  }
+
+  .tarjeta-personaje h2 {
+    font-size: 25px;
+  }
+
+  .tarjeta-personaje p {
+    font-size: 18px;
+  }
+
+  .buscadorcontenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #98D6CE;
+    border-radius: 30px;
+    padding: 5px 15px;
+    width: 400px;
+    max-width: 500px;
+    margin: 30px auto;
+  }
+}
