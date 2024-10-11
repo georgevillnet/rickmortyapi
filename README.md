@@ -57,6 +57,11 @@ PARTES INTERACTIVAS A DESTACAR
 
 
 Versión web
+
+
+
+
+
 ![3](rickmortyapi/img/3.PNG)
 
 
@@ -93,11 +98,18 @@ Versión móvil
 
 
 1- Lo primero interactivo a destacar es el logotipo, tiene un ligero movimiento de flotar todo el tiempo y se va iluminando a medida que asciende, luego al pasar por encima el ratón se ilumina.
+
+
+
 ![5](rickmortyapi/img/5.PNG)
 
 
 
 2- El buscador muestra en tiempo real los personajes que se escriba.
+
+
+
+
 ![6](rickmortyapi/img/6.PNG)
  
 
